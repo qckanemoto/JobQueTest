@@ -1,0 +1,9 @@
+quartet_job_que_test:
+    resource: "@QuartetJobQueTestBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+# BCCResqueBundle
+BCCResqueBundle:
+    resource: "@BCCResqueBundle/Resources/config/routing.xml"
+    prefix:   /resque
